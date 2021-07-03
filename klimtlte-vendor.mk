@@ -14,8 +14,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/vendor/lib/hw/gps.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.universal5420.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.universal5420.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
+<<<<<<< HEAD   (86b64d klimlte: hexedits for 18.1 + standalone extract utils)
     vendor/samsung/klimtlte/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/libprotobuf-cpp-full-v23.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-v23.so \
+=======
+    vendor/samsung/klimtlte/proprietary/vendor/lib/libprotobuf-cpp-haxx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-haxx.so \
+>>>>>>> CHANGE (a7673e drop liboemcrypto)
     vendor/samsung/klimtlte/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/klimtlte/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
